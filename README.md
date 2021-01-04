@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T | A tester | 
+| getX | D | Getter | 
+| getY | D | Getter | 
+| toString | I | Fonction simple | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | I | Méthode qui ne nécessite pas spécifiquement de tests |
+| getCity  | D | Getter |
+| getDistance  | T | A tester |
+| getFitness  | I | Getter |
+| setCity  | D | Méthode qui ne nécessite pas spécifiquement de tests |
+| tourSize  | D | Méthode qui ne nécessite pas spécifiquement de tests |
+| toString  | I | Fonction simple |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T | A tester |
+| getTour  | I | Renvoie un type Tour |
+| populationSize  | I | Renvoie également un type Tour |
+| saveTour  | D | Méthode de sauvegarde, pas utile à démontrer |
 
 ## Functions to test now
 
