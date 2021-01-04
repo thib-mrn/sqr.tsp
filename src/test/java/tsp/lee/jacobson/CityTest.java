@@ -57,4 +57,15 @@ public class CityTest {
 
  	}
 	
+	 @Test
+	public void distanceTo_city0_distance0() {
+		City c1 = new City(5,2);
+ 		City c2 = new City(1,8);
+
+		double actual = c1.distanceTo(c2);
+		double expected = Math.sqrt(c1.getX()*c2.getX() + c1.getY()*c2.getY());
+
+		assertEquals(expected, actual, 0);
+	}
+
 }
